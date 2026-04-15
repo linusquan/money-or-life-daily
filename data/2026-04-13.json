@@ -1,0 +1,51 @@
+{
+  "videos": [
+    {
+      "title": "下一支翻倍的太空公司？",
+      "url": "https://www.youtube.com/watch?v=ouWLZSrJhGI",
+      "date": "2026-04-13",
+      "duration": "26:40",
+      "views": "16k",
+      "likes": "509",
+      "comments": "49",
+      "summary": "Ace对铱星通讯（IRDM）进行深度分析，与其他卫星通信股票横向对比，评估其翻倍潜力。IRDM是四家上市卫星通信公司中唯一盈利的公司。",
+      "keyPoints": [
+        "铱星通讯（IRDM）2025全年营收8.7亿美元，净利润1.14亿美元，市值36亿美元，是四家上市卫星通信公司中唯一盈利的",
+        "铱星历史：源自摩托罗拉工程师构想，1998年耗资50亿美元建成后9个月即破产，后经CEO Matt Desch重组，用SpaceX猎鹰9号部署第二代星座Iridium NEXT（30亿美元）",
+        "用户从2006年的15万增长至今约250万",
+        "营收结构：商业收入约71%（语音数据+物联网为主），政府收入约29%（美国国防部合同）",
+        "Starlink竞争对IRDM影响有限——已从主连接转型为备份/伴侣连接",
+        "频谱分析：GSAT持有S频段16.5MHz纳入3GPP标准；IRDM持有L频段8.725MHz最近纳入3GPP Release 19；VSAT持有L频段82MHz+S频段30MHz储备巨大",
+        "2023年与高通合作手机直连卫星失败，转向"星尘计划"Project Stardust（NB-IoT标准化方案）",
+        "股价从2025下半年低点约$20已翻倍至$30以上，突破2023-2024盘整区间"
+      ],
+      "table": {
+        "title": "卫星通信公司对比",
+        "headers": ["公司", "营收", "净利润", "市值", "一年涨幅"],
+        "rows": [
+          ["Starlink", "104亿", "未上市", "—", "—"],
+          ["VSAT", "46亿", "-3.39亿", "最高", "+580%"],
+          ["IRDM", "8.7亿", "+1.14亿", "36亿", "+41%"],
+          ["GSAT", "较低", "较低", "—", "+279%"],
+          ["ASTS", "0.7亿", "亏损", "较高", "+310%"]
+        ]
+      },
+      "stocks": ["IRDM", "RKLB", "SATS", "TSLA", "VSAT", "GSAT", "ASTS", "Starlink"],
+      "investmentView": "Ace持仓IRDM 3%，均价约$29。视为稳健成长股而非爆发型。不会过度看多，因已重仓RKLB和SATS。看好Starlink即将IPO，计划参与。技术面看有类似VSAT去年翻转至$60的潜力。"
+    }
+  ],
+  "communityPosts": [
+    {
+      "date": "2026-04-11（4天前）",
+      "content": "周六市场更新：EOSE投机仓位持有中，止损线4.95；SATS大涨，高抛低吸策略有效；RKLB走势弱，Reddit讨论减少，不关注FLY；TSLA获荷兰FSD批准，继续看好特斯拉、Terafab、SpaceX和RKLB；PLTR看好Q1财报数据打脸Michael Burry。",
+      "likes": 87,
+      "comments": 4
+    },
+    {
+      "date": "2026-04-09（6天前）",
+      "content": "会员价格4月15日调整：关闭YouTube会员渠道，全部转移至Patreon。新价格——交易更新$10，投资Q&A $15，Discord群$20。现有会员不受影响。",
+      "likes": 16,
+      "comments": 1
+    }
+  ]
+}
