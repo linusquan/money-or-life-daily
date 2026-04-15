@@ -78,6 +78,13 @@ Possible `action` values: `buy`, `sell`, `hold`, `add`, `trim`, `call`, `put`, `
 
 ### Independent Analysis Schema
 
+**IMPORTANT: Use live data, not training data.** For each major stock, run real-time research before writing this section:
+
+1. **WebSearch** for each ticker: latest earnings, revenue, P/E, analyst ratings, recent news
+2. **Playwright** to visit financial sites (Yahoo Finance, Google Finance, etc.) if WebSearch results are insufficient — scrape current price, market cap, analyst consensus, recent filings
+3. **Cross-reference** Ace's claims against live data — flag any discrepancies
+4. **Search for risks** Ace didn't mention — regulatory actions, competitor moves, insider selling, short interest
+
 For each major stock discussed, generate independent research:
 
 ```json
