@@ -170,6 +170,70 @@
       font-size: 0.8em;
       color: #666;
     }
+    .trade-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      background: #16213e;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      flex-wrap: wrap;
+    }
+    .trade-action {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.78em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .trade-action.buy, .trade-action.add { background: #0d7c3e; color: #fff; }
+    .trade-action.sell, .trade-action.trim { background: #c0392b; color: #fff; }
+    .trade-action.hold { background: #2980b9; color: #fff; }
+    .trade-action.watching { background: #7f8c8d; color: #fff; }
+    .trade-action.call, .trade-action.put, .trade-action.covered-call { background: #8e44ad; color: #fff; }
+    .trade-ticker {
+      font-weight: 700;
+      color: #e94560;
+      font-size: 0.95em;
+      min-width: 50px;
+    }
+    .trade-detail {
+      font-size: 0.82em;
+      color: #999;
+    }
+    .trade-reasoning {
+      font-size: 0.85em;
+      color: #bbb;
+      width: 100%;
+      margin-top: 2px;
+    }
+    .analysis-card {
+      background: #16213e;
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 10px;
+      border-left: 3px solid #2980b9;
+    }
+    .analysis-card .analysis-ticker {
+      font-weight: 700;
+      color: #e94560;
+      font-size: 1em;
+      margin-bottom: 8px;
+    }
+    .analysis-card .analysis-row {
+      font-size: 0.85em;
+      line-height: 1.6;
+      color: #ccc;
+      margin-bottom: 4px;
+    }
+    .analysis-card .analysis-label {
+      color: #e94560;
+      font-weight: 600;
+    }
+    .analysis-card .risk-highlight {
+      color: #e67e22;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
@@ -366,6 +430,45 @@
           <div class="section-title">投资观点</div>
           <div class="section-content">${v.investmentView}</div>
         </div>`;
+      }
+
+      if (v.trades && v.trades.length > 0) {
+        html += `<div class="section">
+          <div class="section-title">交易动作</div>`;
+        v.trades.forEach(t => {
+          html += `<div class="trade-item">
+            <span class="trade-action ${t.action}">${t.action}</span>
+            <span class="trade-ticker">${t.ticker}</span>`;
+          const details = [];
+          if (t.positionSize) details.push(`仓位: ${t.positionSize}`);
+          if (t.entryPrice) details.push(`均价: ${t.entryPrice}`);
+          if (details.length) html += `<span class="trade-detail">${details.join(' | ')}</span>`;
+          if (t.reasoning) html += `<div class="trade-reasoning">${t.reasoning}</div>`;
+          html += `</div>`;
+        });
+        html += `</div>`;
+      }
+
+      if (v.independentAnalysis) {
+        const ia = v.independentAnalysis;
+        html += `<div class="section">
+          <div class="section-title">独立分析</div>`;
+        if (ia.summary) {
+          html += `<div class="section-content" style="margin-bottom:12px;">${ia.summary}</div>`;
+        }
+        if (ia.stocks && ia.stocks.length > 0) {
+          ia.stocks.forEach(s => {
+            html += `<div class="analysis-card">
+              <div class="analysis-ticker">${s.ticker}</div>`;
+            if (s.fundamentals) html += `<div class="analysis-row"><span class="analysis-label">基本面：</span>${s.fundamentals}</div>`;
+            if (s.bullCase) html += `<div class="analysis-row"><span class="analysis-label">看多：</span>${s.bullCase}</div>`;
+            if (s.bearCase) html += `<div class="analysis-row"><span class="analysis-label">看空：</span>${s.bearCase}</div>`;
+            if (s.risksNotMentioned) html += `<div class="analysis-row"><span class="risk-highlight"><span class="analysis-label">未提及风险：</span>${s.risksNotMentioned}</span></div>`;
+            if (s.consensus) html += `<div class="analysis-row"><span class="analysis-label">分析师共识：</span>${s.consensus}</div>`;
+            html += `</div>`;
+          });
+        }
+        html += `</div>`;
       }
 
       html += `</div>`;

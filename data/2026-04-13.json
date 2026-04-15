@@ -31,7 +31,58 @@
         ]
       },
       "stocks": ["IRDM", "RKLB", "SATS", "TSLA", "VSAT", "GSAT", "ASTS", "Starlink"],
-      "investmentView": "Ace持仓IRDM 3%，均价约$29。视为稳健成长股而非爆发型。不会过度看多，因已重仓RKLB和SATS。看好Starlink即将IPO，计划参与。技术面看有类似VSAT去年翻转至$60的潜力。"
+      "investmentView": "Ace持仓IRDM 3%，均价约$29。视为稳健成长股而非爆发型。不会过度看多，因已重仓RKLB和SATS。看好Starlink即将IPO，计划参与。技术面看有类似VSAT去年翻转至$60的潜力。",
+      "trades": [
+        {
+          "ticker": "IRDM",
+          "action": "hold",
+          "positionSize": "3%",
+          "entryPrice": "$29",
+          "reasoning": "稳健成长股，卫星通信唯一盈利公司，但已重仓RKLB和SATS不会加仓"
+        },
+        {
+          "ticker": "RKLB",
+          "action": "hold",
+          "positionSize": "重仓",
+          "entryPrice": null,
+          "reasoning": "太空领域核心持仓之一"
+        },
+        {
+          "ticker": "SATS",
+          "action": "hold",
+          "positionSize": "重仓",
+          "entryPrice": null,
+          "reasoning": "太空领域核心持仓之一，高抛低吸策略有效"
+        },
+        {
+          "ticker": "Starlink",
+          "action": "watching",
+          "positionSize": null,
+          "entryPrice": null,
+          "reasoning": "看好即将IPO，计划参与"
+        }
+      ],
+      "independentAnalysis": {
+        "summary": "Ace对IRDM的分析较为全面客观，准确指出其为唯一盈利的卫星通信公司。但需注意几个补充风险点。",
+        "stocks": [
+          {
+            "ticker": "IRDM",
+            "fundamentals": "P/E约31.6x，营收8.7亿（+12% YoY），净利润率13.1%，EBITDA利润率约60%，自由现金流稳定，负债率适中",
+            "bullCase": "唯一盈利的纯卫星通信公司；3GPP Release 19纳入L频段利好直连手机市场；政府合同（EMSS）提供稳定收入底线；物联网用户持续增长",
+            "bearCase": "Starlink在价格和带宽上具有压倒性优势；用户增长可能已接近天花板；手机直连市场竞争激烈（ASTS、GSAT均在布局）",
+            "risksNotMentioned": "第二代Iridium NEXT星座卫星设计寿命约15年（2032-2037年间需更换），届时资本开支压力巨大；Project Stardust时间表尚不明确，商业化前景存疑；L频段带宽仅8.7MHz远小于竞争对手",
+            "consensus": "华尔街分析师中位目标价约$35，评级以「持有」为主（8买入/6持有/2卖出），较当前价位上行空间约15%"
+          },
+          {
+            "ticker": "VSAT",
+            "fundamentals": "营收46亿但仍亏损（净亏3.39亿），负债较高，但Inmarsat合并后频谱资源最为丰富（L+S频段共112MHz）",
+            "bullCase": "频谱储备远超同行，Inmarsat整合后协同效应逐步释放，航空WiFi市场持续增长",
+            "bearCase": "整合风险未完全消化，高负债率限制灵活性，一年+580%涨幅后估值已不便宜",
+            "risksNotMentioned": "Inmarsat整合的执行风险仍在，管理层需证明能实现承诺的成本协同",
+            "consensus": "分析师目标价分歧较大，部分认为涨幅过快需要整固"
+          }
+        ]
+      }
     }
   ],
   "communityPosts": [
