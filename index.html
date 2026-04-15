@@ -228,7 +228,7 @@
   <script>
     let availableDates = [];
     let currentIndex = 0;
-    const BASE = '';
+    const BASE = location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
 
     async function init() {
       try {
