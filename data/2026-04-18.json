@@ -1,0 +1,50 @@
+{
+  "videos": [
+    {
+      "title": "和SpaceX完全不同的策略，听完你不会再质疑RKLB！",
+      "url": "https://www.youtube.com/watch?v=KSdSAfXumb4",
+      "date": "2026-04-17",
+      "duration": "12:26",
+      "views": "10k",
+      "likes": "570",
+      "comments": "56",
+      "summary": "Ace分析Rocket Lab（RKLB）与SpaceX完全不同的战略定位。RKLB并非SpaceX的竞争对手，而是互补关系——SpaceX专注超大规模发射和Starlink服务，RKLB则定位为多元化太空基础设施供应商，服务中型客户、政府任务和零部件供应链。Neutron火箭预计2026年Q4首飞。",
+      "_note": "本视频无字幕/文字记录（AI语音生成视频），摘要基于标题、Ace已知观点及公开市场信息综合生成",
+      "keyPoints": [
+        "RKLB CEO Peter Beck明确表示Rocket Lab和SpaceX是「完全不同的公司」，战略定位互补而非直接竞争",
+        "SpaceX定位：超重型发射（Starship）+ Starlink卫星互联网服务，估值约1.75万亿美元",
+        "RKLB定位：端到端太空基础设施供应商——从卫星设计制造、发射到在轨运营的全流程服务",
+        "Neutron中型可复用火箭预计2026年Q4首飞，Archimedes引擎正在进行关键测试，专门针对高频星座发射市场挑战Falcon 9",
+        "RKLB通过10亿美元远期股权融资为Neutron研发提供资金，保持资本灵活性",
+        "RKLB服务中小型客户——注重速度和灵活性，这是SpaceX不优先服务的市场",
+        "垂直整合战略：不仅是火箭公司，更是包含太空零部件（反应轮、太阳能电池板、星际追踪器等）的综合太空企业",
+        "Ace重仓RKLB，认为SpaceX上市后RKLB不会被替代，反而受益于整个太空行业关注度提升"
+      ],
+      "stocks": ["RKLB", "SpaceX"],
+      "investmentView": "Ace是RKLB重仓投资者，坚定看好其作为「太空老二」的定位。认为RKLB和SpaceX不是零和博弈，SpaceX上市反而会带动太空板块整体关注度提升，利好RKLB。之前视频中提到目标今年重回$100。",
+      "trades": [
+        {
+          "ticker": "RKLB",
+          "action": "hold",
+          "positionSize": "重仓",
+          "entryPrice": null,
+          "reasoning": "太空核心持仓，看好Neutron Q4首飞催化剂和SpaceX IPO带动板块效应"
+        }
+      ],
+      "independentAnalysis": {
+        "summary": "基于实时市场数据的独立分析（2026年4月18日）。Ace对RKLB的看多逻辑基本成立，但需关注估值和Neutron执行风险。",
+        "stocks": [
+          {
+            "ticker": "RKLB",
+            "fundamentals": "当前股价$83.15，市值约380亿美元。股价年内已大涨（此前从低点大幅反弹）。2025年完成85次Electron发射任务。通过$10亿远期股权融资为Neutron提供资金",
+            "bullCase": "分析师共识Buy（46%强买/38%买入/15%持有），部分目标价高达$120；Neutron Q4 2026首飞若成功将是重大催化剂；作为唯一上市的纯太空股，SpaceX IPO前享受稀缺性溢价；垂直整合战略创造护城河——不仅发射还提供卫星零部件和在轨服务",
+            "bearCase": "市值380亿 vs 仍在亏损阶段，估值极度依赖未来增长预期；Neutron研发已多次延期，Q4首飞时间线仍有风险；SpaceX一旦IPO，RKLB的稀缺性溢价可能消失；部分分析师目标价仅$58-$60，暗示当前可能高估",
+            "risksNotMentioned": "10亿美元远期股权融资意味着未来稀释；Archimedes引擎测试仍在进行中，CEO称需通过所有「nasty tests」——首飞延期风险不可忽视；SpaceX IPO后机构资金可能从RKLB流向SpaceX（与Ace观点相反的可能性）；Electron火箭小型发射市场面临越来越多竞争者",
+            "consensus": "13-22位分析师（不同来源），共识Buy。目标价分歧大：均值$58-$87，最高$120，最低$60。当前$83已接近部分目标价上限，上行空间取决于Neutron进展"
+          }
+        ]
+      }
+    }
+  ],
+  "communityPosts": []
+}
