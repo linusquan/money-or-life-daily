@@ -1,0 +1,93 @@
+{
+  "videos": [
+    {
+      "title": "本周赚够，下周减仓！",
+      "url": "https://www.youtube.com/watch?v=ja-8fLQjTDI",
+      "date": "2026-04-18",
+      "duration": "22:11",
+      "views": "14k",
+      "likes": "608",
+      "comments": "51",
+      "summary": "Ace本周投资回顾与下周策略。伊朗战争冲击后市场强力反弹，S&P 500创新高，Ace的太空重仓组合（68%仓位）带动YTD收益达22%。本周已赚够，计划下周适当减仓锁定利润，同时等待4月22日特斯拉Q1财报。",
+      "_note": "本视频无字幕（AI语音生成），摘要基于标题、置顶评论、社区帖子及市场背景综合生成",
+      "keyPoints": [
+        "本周市场强力反弹：S&P 500于4月16-17日创新高至7,029点，受伊朗战争见底/和平希望驱动",
+        "Ace太空板块持仓喷发：68%仓位配置太空（RKLB、SATS等），YTD收益达到22%",
+        "本周策略总结：战争冲击期间坚持持有甚至加仓，本周收获颇丰",
+        "下周策略：计划适当减仓锁定部分利润，不贪心",
+        "特斯拉：继续持有等待4月22日Q1财报，不在财报前减仓",
+        "HIMS催化剂已落地（4月16日社区帖提及）",
+        "投资态度：战争冲击中保持专注和纪律，置顶评论称赞Ace「涨了不盲目追，跌了不恐慌卖」的专业水平",
+        "整体仓位管理：赚够就减，保持纪律性，不追求每一分钱的利润"
+      ],
+      "stocks": ["TSLA", "RKLB", "SATS", "HIMS", "EOSE"],
+      "investmentView": "Ace本周表现优异，太空重仓策略在市场反弹中充分兑现。策略从「坚持持有/逢低加仓」转向「适当减仓锁定利润」。特斯拉继续持有等财报，不做波段。整体投资哲学：赚够就走，保持纪律。",
+      "trades": [
+        {
+          "ticker": "RKLB",
+          "action": "hold",
+          "positionSize": "重仓（太空68%仓位核心）",
+          "entryPrice": null,
+          "reasoning": "太空板块喷发，本周大涨，计划下周适当减仓锁定利润"
+        },
+        {
+          "ticker": "SATS",
+          "action": "hold",
+          "positionSize": "重仓（太空68%仓位核心）",
+          "entryPrice": null,
+          "reasoning": "太空板块核心持仓之一，高抛低吸策略持续有效"
+        },
+        {
+          "ticker": "TSLA",
+          "action": "hold",
+          "positionSize": "25-30%",
+          "entryPrice": "均价$280",
+          "reasoning": "继续持有等待4月22日Q1财报，不在财报前操作"
+        },
+        {
+          "ticker": "HIMS",
+          "action": "hold",
+          "positionSize": null,
+          "entryPrice": null,
+          "reasoning": "催化剂已落地"
+        },
+        {
+          "ticker": "EOSE",
+          "action": "hold",
+          "positionSize": "投机仓位",
+          "entryPrice": null,
+          "reasoning": "止损线4.95，继续持有"
+        }
+      ],
+      "independentAnalysis": {
+        "summary": "基于实时市场数据的独立分析（2026年4月19日）。Ace选择在市场新高时减仓是较为理性的操作，但需关注几个风险点。",
+        "stocks": [
+          {
+            "ticker": "RKLB",
+            "fundamentals": "当前$83.15，市值约380亿。年内涨幅超200%。13位分析师共识Buy，目标价均值$58-$87，最高$120",
+            "bullCase": "太空板块持续受SpaceX IPO预期驱动；Neutron Q4首飞催化剂在前；作为唯一上市纯太空股享受稀缺性溢价",
+            "bearCase": "当前价$83已超过多数分析师目标价均值；年内200%+涨幅后获利回吐压力大；Neutron延期风险",
+            "risksNotMentioned": "Ace计划减仓是正确的风险管理——RKLB RSI可能已超买；太空板块集体回调时RKLB beta极高可能跌幅更大",
+            "consensus": "共识Buy但目标价分歧大（$60-$120），当前价位已反映大量乐观预期"
+          },
+          {
+            "ticker": "TSLA",
+            "fundamentals": "当前约$364，4月22日Q1财报。分析师预期Q1 EPS $0.24（+60% YoY）。43位分析师共识Hold，目标价$405-$415",
+            "bullCase": "Q1 EPS预期同比+60%；FSD订阅增长；TeraFab $250亿合资项目刚宣布",
+            "bearCase": "欧洲品牌危机持续（德国-76%，北欧-88%）；储能Q1仅8.8GWh低于预期；财报前不确定性高",
+            "risksNotMentioned": "4月22日财报是关键拐点——若储能和FSD数据不及预期，股价可能大幅回调；Ace在财报前不减仓是高风险决策",
+            "consensus": "43位分析师Hold，目标$405-$415，距当前$364约12%上行空间。财报将决定短期方向"
+          }
+        ]
+      }
+    }
+  ],
+  "communityPosts": [
+    {
+      "date": "2026-04-17（1天前）",
+      "content": "太空板块喷发，68%仓位太空带动 YTD 收益达到 22%！详细内容见Patreon。",
+      "likes": 25,
+      "comments": 0
+    }
+  ]
+}
